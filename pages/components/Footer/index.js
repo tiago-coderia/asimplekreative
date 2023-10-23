@@ -20,7 +20,7 @@ const Footer = () => {
         >
           Behance
         </Link>
-        <Link href="/curriculum.pdf" className="link-primary" target="_blank">
+        <Link href="/cv.pdf" className="link-primary" target="_blank">
           Curriculum
         </Link>
       </div>
