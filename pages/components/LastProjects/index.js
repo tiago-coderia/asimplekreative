@@ -16,26 +16,14 @@ const LastProjects = () => {
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-4">
         <CardPortfolio
+          imgname="site-eskambo"
+          descricao="Eskambo | Wordpress | Elementor"
+          endereco="https://eskambo.com.br"
+        />
+        <CardPortfolio
           imgname="site-tatimkt"
           descricao="Tati Fashion MKT | Worpdress"
           endereco="http://tatifashionmkt.com.br"
-        />
-
-        <CardPortfolio
-          imgname="site-ceigentemiuda"
-          descricao="CEI Gente Miúda | Worpdress"
-          endereco="http://ceigentemiuda.com.br"
-        />
-
-        <CardPortfolio
-          imgname="site-clinicaochoa"
-          descricao="Clinica Ochoa | Worpdress"
-          endereco="http://clinicaochoa.com.br"
-        />
-        <CardPortfolio
-          imgname="site-pokenext"
-          descricao="PokeNext | NextJS | API | Tailwindss"
-          endereco="https://pokenext-m8vuf1zyl-tiago-coding.vercel.app/"
         />
         <CardPortfolio
           imgname="site-agetex"
@@ -46,6 +34,17 @@ const LastProjects = () => {
           imgname="site-agetexplus"
           descricao="Agetex | Javascript | .DotNet | Bootstrap"
           endereco="https://agetexplus.com.br"
+        />
+        <CardPortfolio
+          imgname="site-ceigentemiuda"
+          descricao="CEI Gente Miúda | Worpdress (Offline)"
+          endereco="http://ceigentemiuda.com.br"
+        />
+
+        <CardPortfolio
+          imgname="site-clinicaochoa"
+          descricao="Clinica Ochoa | Worpdress"
+          endereco="http://clinicaochoa.com.br"
         />
       </div>
     </div>
