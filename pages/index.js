@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main className="max-w-screen-lg mx-auto flex flex-col gap-5 px-4">
       <Head>
-        <title>Renderia © 2024</title>
+        <title>A Simple Kreative © 2024</title>
       </Head>
       <Header />
       <Hero />
