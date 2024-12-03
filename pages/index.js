@@ -1,22 +1,23 @@
-import Link from "next/link";
-import { Poppins } from "next/font/google";
-import { Outfit } from "next/font/google";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Stack from "./components/Stack";
-import LastProjects from "./components/LastProjects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Head from "next/head";
+import Link from 'next/link';
+import { Poppins } from 'next/font/google';
+import { Outfit } from 'next/font/google';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Stack from './components/Stack';
+import LastProjects from './components/LastProjects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Head from 'next/head';
+// import Automations from './components/Automations';
 
 const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
 });
 
 const outfit = Outfit({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
 });
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+      {/* <Automations /> */}
       <Stack />
       <LastProjects />
       <Contact />

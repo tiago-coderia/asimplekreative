@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import BtnLocal from "../Buttons/local";
-import Card from "../Card";
+import Head from 'next/head';
+import Image from 'next/image';
+import BtnLocal from '../Buttons/local';
+import Card from '../Card';
 
 const Hero = () => {
   return (
     <div className="flex items-center justify-center flex-col gap-8">
       <Image
-        src="/profile.jpg"
-        width={120}
-        height={120}
+        src="/profile-photo.jpg"
+        width={160}
+        height={160}
         className="rounded-full filter grayscale"
       />
       <div className="flex gap-4">
@@ -18,8 +18,8 @@ const Hero = () => {
       </div>
       <div>
         <h1 className="text-gradient text-[56px] font-outfit leading-[3.8rem] text-center font-semibold">
-          Full-Stack Dev &<br />
-          Expert Designer.
+          Project Manager &<br />
+          Artificial Intelligence Developer.
         </h1>
       </div>
       <BtnLocal endereco="#lastest">Lastest Shots +</BtnLocal>
