@@ -1,12 +1,12 @@
-import React from "react";
-import TechIcons from "../TechIcons";
-import Link from "next/link";
+import React from 'react';
+import TechIcons from '../TechIcons';
+import Link from 'next/link';
 
 const Stack = () => {
   return (
-    <div className="mb-2 border-b-[1px] border-default border-opacity-10">
+    <div className="mb-2  ">
       <div className="relative flex py-5 items-center">
-        <h1 className="text-gradient text-5xl font-semibold">My Stack</h1>
+        <h1 className="text-gradient text-5xl font-semibold">Minha Stack</h1>
         <span className="flex-grow border-t border-default border-opacity-10"></span>
       </div>
       <div className="grid lg:grid-cols-10 md:grid-cols-5 sm:grid-cols-4  grid-cols-2 justify-center items-center">
