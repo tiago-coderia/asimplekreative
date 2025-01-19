@@ -30,7 +30,7 @@ const Footer = () => {
           Dribbble
         </Link>
         <Link
-          href="/cv-jonathan-tiago.docx"
+          href="/cv-jonathan-tiago-2025.docx"
           className="link-primary"
           target="_blank"
         >
