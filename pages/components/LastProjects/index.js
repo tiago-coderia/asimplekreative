@@ -80,9 +80,13 @@ const LastProjects = () => {
       </div>
       <div className="my-20 text-center">
         <h1 className="text-gradient text-5xl font-semibold leading-normal text-center">
-          Veja alguns vídeos que fiz? <br />
+          Vídeo dos seus produtos! <br />
           Modelado em 3D e Renderizado em Premiere.
         </h1>
+        <p className="text-gradient text-1xl  leading-normal text-center">
+          Abaixo alguns exemplos desenvolvidos para a empresa{' '}
+          <strong>ROCO</strong> de Blumenau...
+        </p>
       </div>
       <div className="flex flex-col gap-4">
         <iframe
