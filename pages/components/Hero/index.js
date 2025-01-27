@@ -14,8 +14,10 @@ const Hero = () => {
       </div>
       <div>
         <h1 className="text-gradient text-[56px] font-outfit leading-[3.8rem] text-center font-semibold">
-          Tech Leader, Marketing, Designer
-          <br />& Gestor de Projetos.
+          Designer, 3D, Marketing, <br />
+          Prompt Engineer, Vídeos,
+          <br />
+          Gestor de Projetos.
         </h1>
       </div>
       <BtnLocal endereco="#lastest">Trabalhos recentes +</BtnLocal>

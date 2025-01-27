@@ -38,11 +38,7 @@ const Header = () => {
         >
           Dribbble
         </Link>
-        <Link
-          href="/cv-jonathan-tiago-2025.docx"
-          className="link-primary"
-          target="_blank"
-        >
+        <Link href="/curriculo.docx" className="link-primary" target="_blank">
           Curriculum
         </Link>
       </div>
