@@ -24,12 +24,15 @@ const Contact = () => {
         Seja visto, seja lembrado!
       </h1>
       <span className="text-4xl animate-pulse">😀</span>
-      <Button>
-        <div className="flex items-center gap-4" onClick={copyToClipboard}>
+      <button
+        className="text-default border-[1px] border-borderButton px-8 py-4 bg-bgbutton font-normal hover:border-lightning transition-all duration-200 hover:scale-95 cursor-pointer"
+        onClick={copyToClipboard}
+      >
+        <div className="flex items-center gap-4">
           {buttonText}
           <ion-icon name="mail-unread-outline"></ion-icon>
         </div>
-      </Button>
+      </button>
     </div>
   );
 };
